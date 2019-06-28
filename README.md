@@ -17,6 +17,7 @@ https://cloud.docker.com/u/kpoppi/repository/docker/kpoppi/geosoftware1
 
 
 TODO:
-- SCREENSHOTS TESTS (A2) MACHEN
-- GITIGNORE ANPASSEN
-- ALLE DATEIEN COMMITTEN/PUSHEN
+- Screenshots der Tests (A2)
+- gitignore anpassen
+- alle Dateien des Projekts committen/pushen
+- Docker veröffentlichen
