@@ -1,8 +1,8 @@
 ﻿# Geosoftware1
-# Assignment08
+## Assignment08
 
-task 8, Geosoftware1, SoSe2019
-name: Katharina Poppinga, matr.: 450 146
+- task 8, Geosoftware1, SoSe2019
+- name: Katharina Poppinga, matr.: 450 146
 
 
 ## GitHub Repository:
@@ -15,6 +15,6 @@ https://cloud.docker.com/u/kpoppi/repository/docker/kpoppi/geosoftware1
 
 
 TODO:
-SCREENSHOTS TESTS (A2) MACHEN
-GITIGNORE ANPASSEN
-ALLE DATEIEN COMMITTEN/PUSHEN
+- SCREENSHOTS TESTS (A2) MACHEN
+- GITIGNORE ANPASSEN
+- ALLE DATEIEN COMMITTEN/PUSHEN
