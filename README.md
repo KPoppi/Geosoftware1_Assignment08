@@ -17,6 +17,6 @@ https://cloud.docker.com/u/kpoppi/repository/docker/kpoppi/geosoftware1
 
 
 TODO:
-- gitignore anpassen
+- gitignore, dockerignore anpassen
 - alle Dateien des Projekts committen/pushen
 - Docker URL berichtigen
