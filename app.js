@@ -9,7 +9,6 @@
 // jshint maxerr: 1000
 
 
-
 var createError = require('http-errors');
 var express = require('express');
 var path = require('path');
@@ -39,7 +38,7 @@ app.use(cookieParser());
 app.use(express.static(path.join(__dirname, 'public')));
 
 
-// Erstelle die Routen für die installierten Client-Bibliotheken:
+// "Erstelle die Routen für die installierten Client-Bibliotheken":
 app.use('/jquery', express.static(path.join(__dirname, 'node_modules', 'jquery', 'dist')));
 app.use('/qunit', express.static(path.join(__dirname, 'node_modules', 'qunit', 'qunit')));
 
@@ -55,10 +54,10 @@ function connectMongoDb() {
       //                      and attach connection and db reference to the app
 
       // using a local service on the same machine
-      //app.locals.dbConnection = await mongodb.MongoClient.connect("mongodb://localhost:27017", {useNewUrlParser: true});
+      app.locals.dbConnection = await mongodb.MongoClient.connect("mongodb://localhost:27017", {useNewUrlParser: true});
 
       // using a named service (e.g. a docker container "mongodbservice")
-      app.locals.dbConnection = await mongodb.MongoClient.connect("mongodb://mongodbservice:27017", {useNewUrlParser: true});
+      //app.locals.dbConnection = await mongodb.MongoClient.connect("mongodb://mongodbservice:27017", {useNewUrlParser: true});
 
       app.locals.db = await app.locals.dbConnection.db("itemdb");
       console.log("Using db: " + app.locals.db.databaseName);
