@@ -1,8 +1,7 @@
 version: "3"
 services:
   app:
-    build: .
-    image: kpoppi/aufgabe-08-poppinga
+    image: kpoppi/aufgabe_08_poppinga
     ports:
       - "3000:3000" # forward webserver on standard-http port
     depends_on:

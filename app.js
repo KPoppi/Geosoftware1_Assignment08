@@ -87,7 +87,7 @@ app.use((req, res, next) => {
 
 app.use('/', indexRouter);
 app.use('/users', usersRouter);
-//
+// CRUD functionality
 app.use('/item', itemsRouter);
 
 
