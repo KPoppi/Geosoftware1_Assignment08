@@ -43,7 +43,6 @@ app.use('/jquery', express.static(path.join(__dirname, 'node_modules', 'jquery',
 app.use('/qunit', express.static(path.join(__dirname, 'node_modules', 'qunit', 'qunit')));
 
 
-
 function connectMongoDb() {
   // finish this block before the server starts,
   // there are some async tasks inside we need to wait for => declare async so we can use await
