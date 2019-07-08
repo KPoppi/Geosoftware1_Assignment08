@@ -2,5 +2,7 @@
 /data
 .DS_Store
 .dockerignore
+app-changes.js
+code-connect-db.js
 package-lock.json
 Assignment08_Screenshots.pdf
