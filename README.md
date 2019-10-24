@@ -3,7 +3,7 @@
 
 
 - task 8, Geosoftware1, SoSe2019
-- name: Katharina Poppinga, matr.: 450 146
+- name: Katharina Poppinga, matr.: 
 
 
 ## GitHub Repository:
